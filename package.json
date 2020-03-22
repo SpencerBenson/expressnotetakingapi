@@ -1,0 +1,31 @@
+{
+  "name": "notesey",
+  "version": "1.0.0",
+  "description": "An API based app for users to take notes easily",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerBenson/expressnotetakingapi.git"
+  },
+  "keywords": [
+    "notes",
+    "express",
+    "api",
+    "mongoDB"
+  ],
+  "author": "Spencer Benson Njuguna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerBenson/expressnotetakingapi/issues"
+  },
+  "homepage": "https://github.com/SpencerBenson/expressnotetakingapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  }
+}
